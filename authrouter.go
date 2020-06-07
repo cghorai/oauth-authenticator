@@ -25,12 +25,19 @@ func startRouter(configFileArgs string)  {
 		fmt.Println(err)
 	}
 
+	// virtualhost, ok := config["url"]
+	// if !ok {
+	// 	error
+	// }
 	virtualhost := config["url"]
 	httpPort := config["httpPort"]
 	httpsPort := config["httpsPort"]
 	username := config["username"]
 	password :=config["password"]
 	banner:=config["banner"]
+	
+	
+	
 	fmt.Println()
 	fmt.Printf("Application is starting up at URL:%s and Port:%s(http) & %s(https)",virtualhost,httpPort,httpsPort)
 

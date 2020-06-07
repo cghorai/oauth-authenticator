@@ -7,6 +7,7 @@ import (
 	"net/http"
 )
 
+//no required/used
 type Config map[string]string
 
 var configFile = "./resources/config"

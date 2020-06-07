@@ -1,0 +1,12 @@
+url=outh.aad.universal.org
+httpPort=80
+httpsPort=443
+username=svcaccountUser
+password=svcaccountPassword
+logFileLocation=/Users/arka.ghosh/logs
+logLevel=TRACE
+environment=sandbox
+certFile=cert.pem
+keyFile=key.pem
+debugPort=8787
+banner=Please enter your username and password for this site

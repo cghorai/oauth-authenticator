@@ -19,6 +19,7 @@ type KeyPair struct {
 	RSA256Key 	string  `json:"SigningKey"`
 }
 
+// pass pointer for resonsewriter
 func validateToken(w http.ResponseWriter, r *http.Request) {
 	var newEvent EventRequest
 	reqBody, err := ioutil.ReadAll(r.Body)

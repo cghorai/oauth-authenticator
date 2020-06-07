@@ -10,3 +10,4 @@ certFile=cert.pem
 keyFile=key.pem
 debugPort=8787
 banner=Please enter your username and password for this site
+version=0.1
